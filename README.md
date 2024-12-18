@@ -1,5 +1,5 @@
 # CorGCN
-This is the source code of CorGCN (Correlation-Aware Graph Convolutional Networks for Multi-Label Node Classification).
+This is the source code of CorGCN (Correlation-Aware Graph Convolutional Networks for Multi-Label Node Classification). The adopted GNN backbone in our source code is GCN.
 
 ## Requirements
 ```
