@@ -2,7 +2,7 @@
 This is the source code of CorGCN (Correlation-Aware Graph Convolutional Networks for Multi-Label Node Classification). The adopted GNN backbone in our source code is GCN.
 
 ## Requirements
-Since the code depends on *older versions* of DGL, PyG, and Torch, these libraries and their dependencies need to be installed via *wheel files*. *If your newer versions can run the code successfully, feel free to use them directly.* DGL, however, tends to have compatibility issues in newer versions, so version 0.8 is likely required.
+Since the code depends on *older versions* of DGL, PyG, Torch, and Cuda, these libraries and their dependencies need to be installed via *wheel files*. *If your newer versions can run the code successfully, feel free to use them directly.* DGL, however, tends to have compatibility issues in newer versions, so version 0.8 is likely required.
 ```
 python >= 3.8
 torch  == 1.11.0
@@ -15,7 +15,7 @@ matplotlib
 tqdm
 ```
 
-Below is the method for installing older versions of PyG, DGL, and Torch with other dependencies using wheel files (you can skip this step if it's not needed for your environment).
+Below is the method for installing older versions of PyG, DGL, and Torch with other dependencies under CUDA 11.3 using wheel files (you can skip this step if it's not needed for your environment).
 ```
 # torch
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
